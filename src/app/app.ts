@@ -36,7 +36,7 @@ export class AppComponent implements OnInit {
   }
 
   loadCurrencies() {
-    this.http.get<any>('http://localhost:3000/currencies').subscribe({
+    this.http.get<any>('https://currency-g8sf.onrender.com/currencies').subscribe({
       next: (res) => {
         this.currencies = Object.entries(res.data).map(([code, info]: [string, any]) => ({
           code,
@@ -59,7 +59,7 @@ export class AppComponent implements OnInit {
     this.loading = true;
     this.error = '';
     this.http
-      .post<any>('http://localhost:3000/convert', {
+      .post<any>('https://currency-g8sf.onrender.com/convert', {
         from: this.from,
         to: this.to,
         amount: this.amount,
