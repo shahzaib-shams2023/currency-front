@@ -25,7 +25,11 @@ HttpClient
 
 
 # Setup
+
 git clone <repo-url>
+
 cd currency-converter
+
 npm install
+
 ng serve --open
