@@ -4,7 +4,7 @@ Currency Converter (Angular)
 
 Minimal Angular application for currency conversion using public exchange-rate API.
 
-Features
+# Features
 
 Select source/target currency
 
@@ -14,7 +14,7 @@ Fetch live rates
 
 Display converted result
 
-Tech
+# Tech
 
 Angular
 
@@ -22,9 +22,9 @@ TypeScript
 
 HttpClient
 
-Any free Exchange Rate API endpoint
 
-Setup
+
+# Setup
 git clone <repo-url>
 cd currency-converter
 npm install
